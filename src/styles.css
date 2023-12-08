@@ -1,0 +1,121 @@
+body {
+  background-color: #000000; 
+  color: #fff; 
+  max-width: 600px;
+  margin: 5% auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding: 2em;
+  font-weight: 300;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover .title {
+  color: #fff;
+}
+
+a:hover {
+  color: #808080;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.element {
+  padding: 5px 0 5px 0;
+}
+
+.spacer {
+  margin: 2em 0 2em 0;
+}
+
+.negative {
+  margin: -1.5em 0 2em 0;
+}
+
+.icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.icons {
+  margin-top: 5px; 
+  padding-bottom: 10px;
+}
+
+.section {
+  font-weight: 1;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+li::marker {
+  color:#fff;
+}
+
+.mute {
+  color: #808080;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: .75rem;
+  background-color: #000000;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.closed-button {
+  background-color: #000; /* Green */
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.closed-button:hover {
+  background-color: #fff; /* Darker shade of green */
+  color: #000;
+}
+
+.center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.no-bullets {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+iframe {
+  overflow: hidden;
+}
